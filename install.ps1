@@ -1,34 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@DevoWarr 
-DevoWarr
-/
-Spotify
-Private
-1
-00
-Code
-Issues
-Pull requests
-Actions
-Projects
-1
-Security
-Insights
-Settings
-Spotify/install.ps1
-@DevoWarr
-DevoWarr Update install.ps1
-Latest commit 29d1ddb 23 minutes ago
- History
- 1 contributor
-219 lines (195 sloc)  5.9 KB
-   
 # Ignore errors from `Stop-Process`
 $PSDefaultParameterValues['Stop-Process:ErrorAction'] = 'SilentlyContinue'
 
